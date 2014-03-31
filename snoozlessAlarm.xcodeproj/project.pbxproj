@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		919E9E1818E8FFC50011217E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E1718E8FFC50011217E /* Foundation.framework */; };
+		919E9E1A18E8FFC50011217E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E1918E8FFC50011217E /* CoreGraphics.framework */; };
+		919E9E1C18E8FFC50011217E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E1B18E8FFC50011217E /* UIKit.framework */; };
+		919E9E2218E8FFC50011217E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 919E9E2018E8FFC50011217E /* InfoPlist.strings */; };
+		919E9E2418E8FFC50011217E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E9E2318E8FFC50011217E /* main.m */; };
+		919E9E2818E8FFC50011217E /* SnoozlessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E9E2718E8FFC50011217E /* SnoozlessAppDelegate.m */; };
+		919E9E2B18E8FFC50011217E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919E9E2918E8FFC50011217E /* Main.storyboard */; };
+		919E9E2E18E8FFC50011217E /* SnoozlessMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E9E2D18E8FFC50011217E /* SnoozlessMasterViewController.m */; };
+		919E9E3118E8FFC50011217E /* SnoozlessDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E9E3018E8FFC50011217E /* SnoozlessDetailViewController.m */; };
+		919E9E3318E8FFC50011217E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919E9E3218E8FFC50011217E /* Images.xcassets */; };
+		919E9E3A18E8FFC50011217E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E3918E8FFC50011217E /* XCTest.framework */; };
+		919E9E3B18E8FFC50011217E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E1718E8FFC50011217E /* Foundation.framework */; };
+		919E9E3C18E8FFC50011217E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E1B18E8FFC50011217E /* UIKit.framework */; };
+		919E9E4418E8FFC50011217E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 919E9E4218E8FFC50011217E /* InfoPlist.strings */; };
+		919E9E4618E8FFC50011217E /* snoozlessAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E9E4518E8FFC50011217E /* snoozlessAlarmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		919E9E3D18E8FFC50011217E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919E9E0C18E8FFC50011217E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919E9E1318E8FFC50011217E;
+			remoteInfo = snoozlessAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		919E9E1418E8FFC50011217E /* snoozlessAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snoozlessAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		919E9E1718E8FFC50011217E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		919E9E1918E8FFC50011217E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		919E9E1B18E8FFC50011217E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		919E9E1F18E8FFC50011217E /* snoozlessAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "snoozlessAlarm-Info.plist"; sourceTree = "<group>"; };
+		919E9E2118E8FFC50011217E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		919E9E2318E8FFC50011217E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		919E9E2518E8FFC50011217E /* snoozlessAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "snoozlessAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		919E9E2618E8FFC50011217E /* SnoozlessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnoozlessAppDelegate.h; sourceTree = "<group>"; };
+		919E9E2718E8FFC50011217E /* SnoozlessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnoozlessAppDelegate.m; sourceTree = "<group>"; };
+		919E9E2A18E8FFC50011217E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		919E9E2C18E8FFC50011217E /* SnoozlessMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnoozlessMasterViewController.h; sourceTree = "<group>"; };
+		919E9E2D18E8FFC50011217E /* SnoozlessMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnoozlessMasterViewController.m; sourceTree = "<group>"; };
+		919E9E2F18E8FFC50011217E /* SnoozlessDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnoozlessDetailViewController.h; sourceTree = "<group>"; };
+		919E9E3018E8FFC50011217E /* SnoozlessDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnoozlessDetailViewController.m; sourceTree = "<group>"; };
+		919E9E3218E8FFC50011217E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		919E9E3818E8FFC50011217E /* snoozlessAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snoozlessAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919E9E3918E8FFC50011217E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		919E9E4118E8FFC50011217E /* snoozlessAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "snoozlessAlarmTests-Info.plist"; sourceTree = "<group>"; };
+		919E9E4318E8FFC50011217E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		919E9E4518E8FFC50011217E /* snoozlessAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snoozlessAlarmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919E9E1118E8FFC50011217E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E9E1A18E8FFC50011217E /* CoreGraphics.framework in Frameworks */,
+				919E9E1C18E8FFC50011217E /* UIKit.framework in Frameworks */,
+				919E9E1818E8FFC50011217E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919E9E3518E8FFC50011217E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E9E3A18E8FFC50011217E /* XCTest.framework in Frameworks */,
+				919E9E3C18E8FFC50011217E /* UIKit.framework in Frameworks */,
+				919E9E3B18E8FFC50011217E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919E9E0B18E8FFC50011217E = {
+			isa = PBXGroup;
+			children = (
+				919E9E1D18E8FFC50011217E /* snoozlessAlarm */,
+				919E9E3F18E8FFC50011217E /* snoozlessAlarmTests */,
+				919E9E1618E8FFC50011217E /* Frameworks */,
+				919E9E1518E8FFC50011217E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		919E9E1518E8FFC50011217E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919E9E1418E8FFC50011217E /* snoozlessAlarm.app */,
+				919E9E3818E8FFC50011217E /* snoozlessAlarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919E9E1618E8FFC50011217E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919E9E1718E8FFC50011217E /* Foundation.framework */,
+				919E9E1918E8FFC50011217E /* CoreGraphics.framework */,
+				919E9E1B18E8FFC50011217E /* UIKit.framework */,
+				919E9E3918E8FFC50011217E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		919E9E1D18E8FFC50011217E /* snoozlessAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				919E9E2618E8FFC50011217E /* SnoozlessAppDelegate.h */,
+				919E9E2718E8FFC50011217E /* SnoozlessAppDelegate.m */,
+				919E9E2918E8FFC50011217E /* Main.storyboard */,
+				919E9E2C18E8FFC50011217E /* SnoozlessMasterViewController.h */,
+				919E9E2D18E8FFC50011217E /* SnoozlessMasterViewController.m */,
+				919E9E2F18E8FFC50011217E /* SnoozlessDetailViewController.h */,
+				919E9E3018E8FFC50011217E /* SnoozlessDetailViewController.m */,
+				919E9E3218E8FFC50011217E /* Images.xcassets */,
+				919E9E1E18E8FFC50011217E /* Supporting Files */,
+			);
+			path = snoozlessAlarm;
+			sourceTree = "<group>";
+		};
+		919E9E1E18E8FFC50011217E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				919E9E1F18E8FFC50011217E /* snoozlessAlarm-Info.plist */,
+				919E9E2018E8FFC50011217E /* InfoPlist.strings */,
+				919E9E2318E8FFC50011217E /* main.m */,
+				919E9E2518E8FFC50011217E /* snoozlessAlarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		919E9E3F18E8FFC50011217E /* snoozlessAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				919E9E4518E8FFC50011217E /* snoozlessAlarmTests.m */,
+				919E9E4018E8FFC50011217E /* Supporting Files */,
+			);
+			path = snoozlessAlarmTests;
+			sourceTree = "<group>";
+		};
+		919E9E4018E8FFC50011217E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				919E9E4118E8FFC50011217E /* snoozlessAlarmTests-Info.plist */,
+				919E9E4218E8FFC50011217E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919E9E1318E8FFC50011217E /* snoozlessAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919E9E4918E8FFC50011217E /* Build configuration list for PBXNativeTarget "snoozlessAlarm" */;
+			buildPhases = (
+				919E9E1018E8FFC50011217E /* Sources */,
+				919E9E1118E8FFC50011217E /* Frameworks */,
+				919E9E1218E8FFC50011217E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snoozlessAlarm;
+			productName = snoozlessAlarm;
+			productReference = 919E9E1418E8FFC50011217E /* snoozlessAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		919E9E3718E8FFC50011217E /* snoozlessAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919E9E4C18E8FFC50011217E /* Build configuration list for PBXNativeTarget "snoozlessAlarmTests" */;
+			buildPhases = (
+				919E9E3418E8FFC50011217E /* Sources */,
+				919E9E3518E8FFC50011217E /* Frameworks */,
+				919E9E3618E8FFC50011217E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919E9E3E18E8FFC50011217E /* PBXTargetDependency */,
+			);
+			name = snoozlessAlarmTests;
+			productName = snoozlessAlarmTests;
+			productReference = 919E9E3818E8FFC50011217E /* snoozlessAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		919E9E0C18E8FFC50011217E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Snoozless;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Doug Goss";
+				TargetAttributes = {
+					919E9E3718E8FFC50011217E = {
+						TestTargetID = 919E9E1318E8FFC50011217E;
+					};
+				};
+			};
+			buildConfigurationList = 919E9E0F18E8FFC50011217E /* Build configuration list for PBXProject "snoozlessAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 919E9E0B18E8FFC50011217E;
+			productRefGroup = 919E9E1518E8FFC50011217E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919E9E1318E8FFC50011217E /* snoozlessAlarm */,
+				919E9E3718E8FFC50011217E /* snoozlessAlarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919E9E1218E8FFC50011217E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E9E3318E8FFC50011217E /* Images.xcassets in Resources */,
+				919E9E2218E8FFC50011217E /* InfoPlist.strings in Resources */,
+				919E9E2B18E8FFC50011217E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919E9E3618E8FFC50011217E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E9E4418E8FFC50011217E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919E9E1018E8FFC50011217E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E9E3118E8FFC50011217E /* SnoozlessDetailViewController.m in Sources */,
+				919E9E2E18E8FFC50011217E /* SnoozlessMasterViewController.m in Sources */,
+				919E9E2418E8FFC50011217E /* main.m in Sources */,
+				919E9E2818E8FFC50011217E /* SnoozlessAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919E9E3418E8FFC50011217E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919E9E4618E8FFC50011217E /* snoozlessAlarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		919E9E3E18E8FFC50011217E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919E9E1318E8FFC50011217E /* snoozlessAlarm */;
+			targetProxy = 919E9E3D18E8FFC50011217E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		919E9E2018E8FFC50011217E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919E9E2118E8FFC50011217E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		919E9E2918E8FFC50011217E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919E9E2A18E8FFC50011217E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		919E9E4218E8FFC50011217E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919E9E4318E8FFC50011217E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		919E9E4718E8FFC50011217E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		919E9E4818E8FFC50011217E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		919E9E4A18E8FFC50011217E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "snoozlessAlarm/snoozlessAlarm-Prefix.pch";
+				INFOPLIST_FILE = "snoozlessAlarm/snoozlessAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		919E9E4B18E8FFC50011217E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "snoozlessAlarm/snoozlessAlarm-Prefix.pch";
+				INFOPLIST_FILE = "snoozlessAlarm/snoozlessAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		919E9E4D18E8FFC50011217E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/snoozlessAlarm.app/snoozlessAlarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "snoozlessAlarm/snoozlessAlarm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "snoozlessAlarmTests/snoozlessAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		919E9E4E18E8FFC50011217E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/snoozlessAlarm.app/snoozlessAlarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "snoozlessAlarm/snoozlessAlarm-Prefix.pch";
+				INFOPLIST_FILE = "snoozlessAlarmTests/snoozlessAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		919E9E0F18E8FFC50011217E /* Build configuration list for PBXProject "snoozlessAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919E9E4718E8FFC50011217E /* Debug */,
+				919E9E4818E8FFC50011217E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919E9E4918E8FFC50011217E /* Build configuration list for PBXNativeTarget "snoozlessAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919E9E4A18E8FFC50011217E /* Debug */,
+				919E9E4B18E8FFC50011217E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		919E9E4C18E8FFC50011217E /* Build configuration list for PBXNativeTarget "snoozlessAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919E9E4D18E8FFC50011217E /* Debug */,
+				919E9E4E18E8FFC50011217E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 919E9E0C18E8FFC50011217E /* Project object */;
+}
