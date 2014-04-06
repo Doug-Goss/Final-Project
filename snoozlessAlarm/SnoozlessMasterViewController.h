@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EventKit/EventKit.h>
+#import "Alarm.h"
 
-@interface SnoozlessMasterViewController : UITableViewController
+@interface SnoozlessMasterViewController : UITableViewController {
+    NSMutableArray *alarms;
+}
+
+@property (strong, nonatomic) Alarm *alarm;
+
+-(void)removeNotification:(NSIndexPath *)indexPath;
+
+-(void)startTask;
 
 @end

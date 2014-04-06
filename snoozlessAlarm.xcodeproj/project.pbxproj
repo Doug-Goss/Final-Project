@@ -22,6 +22,9 @@
 		919E9E3C18E8FFC50011217E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E1B18E8FFC50011217E /* UIKit.framework */; };
 		919E9E4418E8FFC50011217E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 919E9E4218E8FFC50011217E /* InfoPlist.strings */; };
 		919E9E4618E8FFC50011217E /* snoozlessAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E9E4518E8FFC50011217E /* snoozlessAlarmTests.m */; };
+		919E9E5118E900FC0011217E /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E9E5018E900FC0011217E /* Alarm.m */; };
+		919E9E5318E9DD4A0011217E /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E5218E9DD4A0011217E /* EventKit.framework */; };
+		919E9E5618EC7ECF0011217E /* SnoozlessTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E9E5518EC7ECF0011217E /* SnoozlessTaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,11 @@
 		919E9E4118E8FFC50011217E /* snoozlessAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "snoozlessAlarmTests-Info.plist"; sourceTree = "<group>"; };
 		919E9E4318E8FFC50011217E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		919E9E4518E8FFC50011217E /* snoozlessAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snoozlessAlarmTests.m; sourceTree = "<group>"; };
+		919E9E4F18E900FC0011217E /* Alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alarm.h; sourceTree = "<group>"; };
+		919E9E5018E900FC0011217E /* Alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alarm.m; sourceTree = "<group>"; };
+		919E9E5218E9DD4A0011217E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		919E9E5418EC7ECF0011217E /* SnoozlessTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnoozlessTaskViewController.h; sourceTree = "<group>"; };
+		919E9E5518EC7ECF0011217E /* SnoozlessTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnoozlessTaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919E9E5318E9DD4A0011217E /* EventKit.framework in Frameworks */,
 				919E9E1A18E8FFC50011217E /* CoreGraphics.framework in Frameworks */,
 				919E9E1C18E8FFC50011217E /* UIKit.framework in Frameworks */,
 				919E9E1818E8FFC50011217E /* Foundation.framework in Frameworks */,
@@ -104,6 +113,7 @@
 		919E9E1618E8FFC50011217E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				919E9E5218E9DD4A0011217E /* EventKit.framework */,
 				919E9E1718E8FFC50011217E /* Foundation.framework */,
 				919E9E1918E8FFC50011217E /* CoreGraphics.framework */,
 				919E9E1B18E8FFC50011217E /* UIKit.framework */,
@@ -122,6 +132,10 @@
 				919E9E2D18E8FFC50011217E /* SnoozlessMasterViewController.m */,
 				919E9E2F18E8FFC50011217E /* SnoozlessDetailViewController.h */,
 				919E9E3018E8FFC50011217E /* SnoozlessDetailViewController.m */,
+				919E9E4F18E900FC0011217E /* Alarm.h */,
+				919E9E5018E900FC0011217E /* Alarm.m */,
+				919E9E5418EC7ECF0011217E /* SnoozlessTaskViewController.h */,
+				919E9E5518EC7ECF0011217E /* SnoozlessTaskViewController.m */,
 				919E9E3218E8FFC50011217E /* Images.xcassets */,
 				919E9E1E18E8FFC50011217E /* Supporting Files */,
 			);
@@ -257,7 +271,9 @@
 			files = (
 				919E9E3118E8FFC50011217E /* SnoozlessDetailViewController.m in Sources */,
 				919E9E2E18E8FFC50011217E /* SnoozlessMasterViewController.m in Sources */,
+				919E9E5618EC7ECF0011217E /* SnoozlessTaskViewController.m in Sources */,
 				919E9E2418E8FFC50011217E /* main.m in Sources */,
+				919E9E5118E900FC0011217E /* Alarm.m in Sources */,
 				919E9E2818E8FFC50011217E /* SnoozlessAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +479,7 @@
 				919E9E4B18E8FFC50011217E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		919E9E4C18E8FFC50011217E /* Build configuration list for PBXNativeTarget "snoozlessAlarmTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +488,7 @@
 				919E9E4E18E8FFC50011217E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

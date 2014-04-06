@@ -7,10 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EventKit/EventKit.h>
+#import "Alarm.h"
 
-@interface SnoozlessDetailViewController : UIViewController
+@interface SnoozlessDetailViewController : UIViewController{
+    
+    
+    __weak IBOutlet UIDatePicker *dateTimepicker;
+    __weak IBOutlet UILabel *currentTimelabel;
+}
 
-@property (strong, nonatomic) id detailItem;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+
+
+@property (strong, nonatomic) Alarm *alarm;
+
+
+
 @end
