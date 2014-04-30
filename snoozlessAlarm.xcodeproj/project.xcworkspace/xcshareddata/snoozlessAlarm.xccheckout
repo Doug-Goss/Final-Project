@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6551ABA1-6309-4804-A6DB-DD81EB6630CC</string>
+	<string>7D559F11-F0C7-4D36-BD1E-D596403AFE32</string>
 	<key>IDESourceControlProjectName</key>
 	<string>snoozlessAlarm</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -17,10 +17,10 @@
 	<string>snoozlessAlarm.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>26A685D6-EACE-4E11-B2C9-5439B7F8A1EB</key>
+		<string>../../../FlappyEllis</string>
 		<key>35CB3DA9-8659-414D-A2F4-11009B784413</key>
 		<string>../..</string>
-		<key>A6F8111A-78C9-44EB-8D49-0CB1DCFB6852</key>
-		<string>../../../FlappyEllis</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Doug-Goss/Final-project.git</string>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A6F8111A-78C9-44EB-8D49-0CB1DCFB6852</string>
+			<string>26A685D6-EACE-4E11-B2C9-5439B7F8A1EB</string>
 			<key>IDESourceControlWCCName</key>
 			<string>FlappyEllis</string>
 		</dict>

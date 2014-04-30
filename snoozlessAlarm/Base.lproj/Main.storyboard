@@ -146,10 +146,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="902" y="64"/>
         </scene>
-        <!--Game - task-->
+        <!--Game2 - task-->
         <scene sceneID="0oi-aq-DWd">
             <objects>
-                <viewController storyboardIdentifier="task" title="task" id="4WF-aw-TaB" customClass="Game" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="task" title="task" id="4WF-aw-TaB" customClass="Game2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R2h-JP-pLo"/>
                         <viewControllerLayoutGuide type="bottom" id="8mg-jF-X1p"/>
@@ -174,7 +174,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <rect key="frame" x="211" y="425" width="53" height="410"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellishead.png" translatesAutoresizingMaskIntoConstraints="NO" id="aYU-mK-Zvg" customClass="Cuddler">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellishead.png" translatesAutoresizingMaskIntoConstraints="NO" id="aYU-mK-Zvg" customClass="Cuddler2">
                                 <rect key="frame" x="33" y="271" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -189,7 +189,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="startGame:" destination="4WF-aw-TaB" eventType="touchUpInside" id="UzK-3J-tkp"/>
+                                    <action selector="startGame:" destination="4WF-aw-TaB" eventType="touchUpInside" id="2FQ-W7-Pxf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHI-o1-tAv">
@@ -210,14 +210,14 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
-                        <outlet property="Score" destination="6MR-5D-G0Q" id="qlU-vZ-ace"/>
-                        <outlet property="bird" destination="aYU-mK-Zvg" id="Mru-hm-qdn"/>
-                        <outlet property="bottom" destination="Ue6-Ts-Fga" id="rtD-73-WTK"/>
-                        <outlet property="label" destination="IHI-o1-tAv" id="vBK-Ig-Nf8"/>
-                        <outlet property="pipeBottom" destination="bBu-dQ-5DO" id="dPN-RR-YEd"/>
-                        <outlet property="pipeTop" destination="She-5H-Gvd" id="T2n-vv-weL"/>
-                        <outlet property="startGame" destination="vRn-SK-mEs" id="Nac-Tj-bdc"/>
-                        <outlet property="top" destination="yIx-9O-lZ4" id="wDi-0L-4D5"/>
+                        <outlet property="Score" destination="IHI-o1-tAv" id="nY0-K8-b3P"/>
+                        <outlet property="bird" destination="aYU-mK-Zvg" id="nyd-u4-eso"/>
+                        <outlet property="bottom" destination="Ue6-Ts-Fga" id="9qF-Gc-fMm"/>
+                        <outlet property="label" destination="6MR-5D-G0Q" id="K5J-6r-zSw"/>
+                        <outlet property="pipeBottom" destination="bBu-dQ-5DO" id="PNj-Qe-Qa3"/>
+                        <outlet property="pipeTop" destination="She-5H-Gvd" id="IkW-IV-Ev0"/>
+                        <outlet property="startGame" destination="vRn-SK-mEs" id="bZW-0w-HAm"/>
+                        <outlet property="top" destination="yIx-9O-lZ4" id="Nfj-7q-dyM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y2j-U5-rl3" userLabel="First Responder" sceneMemberID="firstResponder"/>

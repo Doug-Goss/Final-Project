@@ -8,7 +8,7 @@
 
 #import "SnoozlessMasterViewController.h"
 #import "SnoozlessDetailViewController.h"
-#import "Game.h"
+#import "Game2.h"
 #import "matchingViewController.h"
 
 
@@ -170,12 +170,11 @@
 -(void)startTask{
     
     int tasknum = arc4random() % 4;
-
+    
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     if (tasknum > 2) {
         
-    
-        Game *task = (Game*)[storyboard instantiateViewControllerWithIdentifier:@"task"];
+        Game2 *task = (Game2*)[storyboard instantiateViewControllerWithIdentifier:@"task"];
         task.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
         [self presentModalViewController:task animated:YES];
     }
