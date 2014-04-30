@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <EventKit/EventKit.h>
+//#import "SnoozlessMasterViewController.h"
 
 @interface Alarm : NSObject
 {
@@ -19,10 +20,9 @@
 @property (strong, nonatomic)NSDate *alarmDate;
 @property (strong, nonatomic)UILocalNotification *notification;
 
-
--(void)schedualNotificationWithDate:(NSDate *)fireDate;
--(void)setAlarm;
 -(void)schedualNotificationWithDate;
+-(void)setAlarm;
+//-(void)schedualNotificationWithDate;
 
 
 @end

@@ -9,7 +9,10 @@
 #import "SnoozlessDetailViewController.h"
 
 @interface SnoozlessDetailViewController ()
+
 - (void)configureView;
+
+
 @end
 
 @implementation SnoozlessDetailViewController
@@ -39,6 +42,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
     [self configureView];
 }
 
@@ -52,12 +56,45 @@
     
     [alarm setAlarmDate:dateTimepicker.date];
     
-    //[alarm schedualNotificationWithDate:dateTimepicker.date];
-    [alarm setAlarm];
+   // NSLog(@"***** connectionDidFinishLoading *****");
+   // [connection release];
     
+    
+   //[[NSNotificationCenter defaultCenter] postNotificationName:@"wake up" object:nil];
+    
+  //  [[NSNotificationCenter defaultCenter] postNotificationName:@"wake up" object:nil];
+    
+    
+    
+   // [[NSNotificationCenter defaultCenter] po]
+//}
+    
+   // [NSNotificationCenter defaultCenter];
+   // NSNotification* notification = [NSNotification notificationWithName:@"MyNotification" object:self];
+  
+   // [[NSNotificationCenter defaultCenter] postNotification:notification];
+    
+    //UILocalNotification *notification = [[UILocalNotification alloc]init];
+    /*
+    alarm.notification = [[UILocalNotification alloc]init];
+    alarm.notification.fireDate = dateTimepicker.date;
+    alarm.notification.alertBody = @"Time to wake up";
+    [[UIApplication sharedApplication]scheduleLocalNotification:alarm.notification];
+     */
+    
+    
+    //[alarm schedualNotificationWithDate];
+    //[alarm setAlarm];
+    //[alarm schedualNotificationWithDate];
     // Request to reload table view data
-    [self configureView];
+    
+    int interval = [alarm.alarmDate timeIntervalSinceDate:[NSDate date]];
+    timer = [NSTimer scheduledTimerWithTimeInterval:interval target:self selector:@selector(startAlarm) userInfo:nil repeats:NO];
+    [self schedualNotificationWithDate:dateTimepicker.date];
+       [self configureView];
     //alert message
+    
+    
     [self presentMessage:@"alarm set"];
     
     
@@ -71,6 +108,20 @@
     
 }
 
+-(void)schedualNotificationWithDate:(NSDate *)fireDate{
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    
+    notification.fireDate = fireDate;
+    notification.alertBody = @"Time to wake up";
+    notification.soundName = @"alarm_clock_buzzer_ringing.mp3";
+    
+    [[UIApplication sharedApplication]scheduleLocalNotification:notification];
+}
 
+-(void)startAlarm{
+    
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"wake up" object:nil];
+}
 
 @end

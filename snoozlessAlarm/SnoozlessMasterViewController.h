@@ -12,9 +12,13 @@
 
 @interface SnoozlessMasterViewController : UITableViewController {
     NSMutableArray *alarms;
+ 
 }
 
-@property (strong, nonatomic) Alarm *alarm;
+//@property(nonatomic, strong)Alarm *alarm;
+@property (nonatomic, strong) NSString *task;
+
+- (IBAction)StartAlarmButton:(id)sender;
 
 -(void)removeNotification:(NSIndexPath *)indexPath;
 

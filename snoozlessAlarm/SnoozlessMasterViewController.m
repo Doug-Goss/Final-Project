@@ -7,9 +7,9 @@
 //
 
 #import "SnoozlessMasterViewController.h"
-
 #import "SnoozlessDetailViewController.h"
-#import "SnoozlessTaskViewController.h"
+#import "Game.h"
+#import "matchingViewController.h"
 
 
 
@@ -37,12 +37,19 @@
                                              selector:@selector(startTask)
                                                  name:@"wake up"
                                                object:nil];
+    
+
    // [[UIApplication sharedApplication] ]
    
     
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
   
     self.navigationItem.rightBarButtonItem = addButton;
+    
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [self.tableView reloadData];
 }
 
 
@@ -84,8 +91,19 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    Alarm *t = [_objects objectAtIndex:[indexPath row]];
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+    dateFormatter.timeZone = [NSTimeZone defaultTimeZone];
+    dateFormatter.timeStyle = NSDateFormatterShortStyle;
+    dateFormatter.dateStyle = NSDateFormatterShortStyle;
+    [dateFormatter setDateFormat:@"hh:mm"];
+    
+    NSString *datestring = [dateFormatter stringFromDate:t.alarmDate];
+    
+    [cell.textLabel setText:@"Alarm"];
+    [cell.detailTextLabel setText:datestring];
+
     return cell;
  
 }
@@ -143,23 +161,33 @@
 - (void)application:(UIApplication *)app didReceiveLocalNotification:(UILocalNotification *)notif {
    
     NSLog(@"recieved notification");
-    SnoozlessTaskViewController *newTask = [[SnoozlessTaskViewController alloc] init];
-    [self.navigationController pushViewController:newTask animated:YES];
+    [self startTask];
+    //SnoozlessTaskViewController *newTask = [[SnoozlessTaskViewController alloc] init];
+    //[self.navigationController pushViewController:newTask animated:YES];
 }
-
 
 
 -(void)startTask{
     
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    
-    
-    SnoozlessTaskViewController *task = (SnoozlessTaskViewController*)[storyboard instantiateViewControllerWithIdentifier:@"task"];
-    
+    int tasknum = arc4random() % 4;
 
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    if (tasknum > 2) {
+        
     
-    task.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    [self presentModalViewController:task animated:YES];
+        Game *task = (Game*)[storyboard instantiateViewControllerWithIdentifier:@"task"];
+        task.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        [self presentModalViewController:task animated:YES];
+    }
+    else{
+        matchingViewController *task = (matchingViewController*)[storyboard instantiateViewControllerWithIdentifier:@"new"];
+        task.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        [self presentModalViewController:task animated:YES];
+    }
+    
 }
 
+- (IBAction)StartAlarmButton:(id)sender {
+    NSLog(@"the button workes");
+}
 @end

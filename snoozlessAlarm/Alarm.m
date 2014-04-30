@@ -9,36 +9,31 @@
 #import "Alarm.h"
 #import "SnoozlessDetailViewController.h"
 
+#import "SnoozlessMasterViewController.h"
+
+
+
 @implementation Alarm
 
 -(void)setAlarm
 {
-//    addAlarm = [NSTimer timerWithTimeInterval:0.5 target:self selector:@selector(schedualNotificationWithDate) userInfo:nil repeats:YES];
-
+    
+   // int interval = [[NSDate date] timeIntervalSinceDate:alarmDate];
+    
+  //  addAlarm = [NSTimer timerWithTimeInterval:abs(interval) target:self selector:@selector(schedualNotificationWithDate) userInfo:nil repeats:YES];
+    //addAlarm = [[NSTimer alloc] initWithFireDate:alarmDate interval:0.5 target:self selector:@selector(schedualNotificationWithDate) userInfo:nil repeats:YES];
+    
 }
 
 
-
--(void)schedualNotificationWithDate:(NSDate *)fireDate{
-//-(void)schedualNotificationWithDate{
-    notification = [[UILocalNotification alloc] init];
+-(void)schedualNotificationWithDate{
     
-    notification.fireDate = fireDate;
-    notification.alertAction = @"okay";
+    notification = [[UILocalNotification alloc]init];
+    notification.fireDate = alarmDate;
     notification.alertBody = @"Time to wake up";
-   // notification
+    [[UIApplication sharedApplication]scheduleLocalNotification:notification];
     
-  
-    
-    
-   // if ([self.alarmDate laterDate:[NSDate date]]) {
-        
-   // NSNotification *note = [[NSNotification alloc] initWithName:@"WakeUp" object:nil userInfo:nil];
-    
-   // [[NSNotificationCenter defaultCenter] postNotification:note];
-        
-   // }
-    
-   // [[UIApplication sharedApplication]scheduleLocalNotification:notification];
 }
+
+
 @end

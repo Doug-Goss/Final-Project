@@ -10,11 +10,14 @@
 #import <EventKit/EventKit.h>
 #import "Alarm.h"
 
-@interface SnoozlessDetailViewController : UIViewController{
+@interface SnoozlessDetailViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>{
     
     
     __weak IBOutlet UIDatePicker *dateTimepicker;
     __weak IBOutlet UILabel *currentTimelabel;
+    NSTimer *timer;
+   
+
 }
 
 
