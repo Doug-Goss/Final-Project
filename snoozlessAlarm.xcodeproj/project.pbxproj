@@ -84,7 +84,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		913B40E71908026100BE6647 /* botpipeFlappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botpipeFlappy.png; sourceTree = "<group>"; };
+		913B40E71908026100BE6647 /* botpipeFlappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = botpipeFlappy.png; path = ../../programImages/botpipeFlappy.png; sourceTree = "<group>"; };
 		913B40E81908026100BE6647 /* brianellis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brianellis.png; sourceTree = "<group>"; };
 		913B40E91908026100BE6647 /* cardo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cardo.jpg; sourceTree = "<group>"; };
 		913B40EA1908026100BE6647 /* CardosFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CardosFace.png; sourceTree = "<group>"; };
@@ -97,9 +97,9 @@
 		913B40F11908026100BE6647 /* ellisasabird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ellisasabird.png; sourceTree = "<group>"; };
 		913B40F21908026100BE6647 /* ellisBirdUp.paint */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ellisBirdUp.paint; sourceTree = "<group>"; };
 		913B40F31908026100BE6647 /* ellisBirdUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ellisBirdUp.png; sourceTree = "<group>"; };
-		913B40F41908026100BE6647 /* ellishead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ellishead.png; sourceTree = "<group>"; };
+		913B40F41908026100BE6647 /* ellishead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ellishead.png; path = ../../programImages/ellishead.png; sourceTree = "<group>"; };
 		913B40F51908026100BE6647 /* ellisheaddown.paint */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ellisheaddown.paint; sourceTree = "<group>"; };
-		913B40F61908026100BE6647 /* ellisheaddown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ellisheaddown.png; sourceTree = "<group>"; };
+		913B40F61908026100BE6647 /* ellisheaddown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ellisheaddown.png; path = ../../programImages/ellisheaddown.png; sourceTree = "<group>"; };
 		913B40F71908026100BE6647 /* EllisRedBirdDown.paint */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = EllisRedBirdDown.paint; sourceTree = "<group>"; };
 		913B40F81908026100BE6647 /* EllisRedBirdDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EllisRedBirdDown.png; sourceTree = "<group>"; };
 		913B40F91908026100BE6647 /* EllisRedBirdUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EllisRedBirdUp.png; sourceTree = "<group>"; };
@@ -112,20 +112,20 @@
 		913B41001908026100BE6647 /* fatcardojump1layer.paint */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = fatcardojump1layer.paint; sourceTree = "<group>"; };
 		913B41011908026100BE6647 /* fatCardomove2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fatCardomove2.png; sourceTree = "<group>"; };
 		913B41021908026100BE6647 /* fatsprites.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fatsprites.jpg; sourceTree = "<group>"; };
-		913B41031908026100BE6647 /* flappground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappground.png; sourceTree = "<group>"; };
-		913B41041908026100BE6647 /* flappybird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappybird.png; sourceTree = "<group>"; };
-		913B41051908026100BE6647 /* flappybirdbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappybirdbackground.png; sourceTree = "<group>"; };
+		913B41031908026100BE6647 /* flappground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappground.png; path = ../../programImages/flappground.png; sourceTree = "<group>"; };
+		913B41041908026100BE6647 /* flappybird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappybird.png; path = ../../programImages/flappybird.png; sourceTree = "<group>"; };
+		913B41051908026100BE6647 /* flappybirdbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappybirdbackground.png; path = ../../programImages/flappybirdbackground.png; sourceTree = "<group>"; };
 		913B41061908026100BE6647 /* flappyBirdsprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappyBirdsprite.png; sourceTree = "<group>"; };
 		913B41071908026100BE6647 /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
 		913B41081908026100BE6647 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
 		913B41091908026100BE6647 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 		913B410A1908026100BE6647 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
-		913B410B1908026100BE6647 /* pipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe.png; sourceTree = "<group>"; };
+		913B410B1908026100BE6647 /* pipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pipe.png; path = ../../programImages/pipe.png; sourceTree = "<group>"; };
 		913B410C1908026100BE6647 /* sonic_2_xl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sonic_2_xl.jpg; sourceTree = "<group>"; };
 		913B410D1908026100BE6647 /* sonicFat2.paint */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = sonicFat2.paint; sourceTree = "<group>"; };
 		913B410E1908026100BE6647 /* sonicFat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonicFat2.png; sourceTree = "<group>"; };
 		913B410F1908026100BE6647 /* taco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taco.jpg; sourceTree = "<group>"; };
-		913B41101908026100BE6647 /* topPipeflappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topPipeflappy.png; sourceTree = "<group>"; };
+		913B41101908026100BE6647 /* topPipeflappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topPipeflappy.png; path = ../../programImages/topPipeflappy.png; sourceTree = "<group>"; };
 		913C00F8190C6C0500366753 /* matchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matchingViewController.h; sourceTree = "<group>"; };
 		913C00F9190C6C0500366753 /* matchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = matchingViewController.m; sourceTree = "<group>"; };
 		913C00FB1910341200366753 /* alarm_clock_buzzer_ringing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_clock_buzzer_ringing.mp3; path = ../../../Downloads/alarm_clock_buzzer_ringing.mp3; sourceTree = "<group>"; };
@@ -189,7 +189,6 @@
 		913B40E61908026100BE6647 /* programImages */ = {
 			isa = PBXGroup;
 			children = (
-				913B40E71908026100BE6647 /* botpipeFlappy.png */,
 				913B40E81908026100BE6647 /* brianellis.png */,
 				913B40E91908026100BE6647 /* cardo.jpg */,
 				913B40EA1908026100BE6647 /* CardosFace.png */,
@@ -202,9 +201,6 @@
 				913B40F11908026100BE6647 /* ellisasabird.png */,
 				913B40F21908026100BE6647 /* ellisBirdUp.paint */,
 				913B40F31908026100BE6647 /* ellisBirdUp.png */,
-				913B40F41908026100BE6647 /* ellishead.png */,
-				913B40F51908026100BE6647 /* ellisheaddown.paint */,
-				913B40F61908026100BE6647 /* ellisheaddown.png */,
 				913B40F71908026100BE6647 /* EllisRedBirdDown.paint */,
 				913B40F81908026100BE6647 /* EllisRedBirdDown.png */,
 				913B40F91908026100BE6647 /* EllisRedBirdUp.png */,
@@ -217,20 +213,16 @@
 				913B41001908026100BE6647 /* fatcardojump1layer.paint */,
 				913B41011908026100BE6647 /* fatCardomove2.png */,
 				913B41021908026100BE6647 /* fatsprites.jpg */,
-				913B41031908026100BE6647 /* flappground.png */,
-				913B41041908026100BE6647 /* flappybird.png */,
-				913B41051908026100BE6647 /* flappybirdbackground.png */,
 				913B41061908026100BE6647 /* flappyBirdsprite.png */,
 				913B41071908026100BE6647 /* grey.png */,
 				913B41081908026100BE6647 /* image2.jpg */,
 				913B41091908026100BE6647 /* image3.jpg */,
 				913B410A1908026100BE6647 /* image4.jpg */,
-				913B410B1908026100BE6647 /* pipe.png */,
 				913B410C1908026100BE6647 /* sonic_2_xl.jpg */,
 				913B410D1908026100BE6647 /* sonicFat2.paint */,
+				913B40F51908026100BE6647 /* ellisheaddown.paint */,
 				913B410E1908026100BE6647 /* sonicFat2.png */,
 				913B410F1908026100BE6647 /* taco.jpg */,
-				913B41101908026100BE6647 /* topPipeflappy.png */,
 			);
 			name = programImages;
 			path = ../../programImages;
@@ -273,7 +265,6 @@
 			children = (
 				919E9E2618E8FFC50011217E /* SnoozlessAppDelegate.h */,
 				919E9E2718E8FFC50011217E /* SnoozlessAppDelegate.m */,
-				919E9E2918E8FFC50011217E /* Main.storyboard */,
 				919E9E2C18E8FFC50011217E /* SnoozlessMasterViewController.h */,
 				919E9E2D18E8FFC50011217E /* SnoozlessMasterViewController.m */,
 				919E9E2F18E8FFC50011217E /* SnoozlessDetailViewController.h */,
@@ -296,6 +287,15 @@
 		919E9E1E18E8FFC50011217E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				913B41041908026100BE6647 /* flappybird.png */,
+				913B41031908026100BE6647 /* flappground.png */,
+				913B41051908026100BE6647 /* flappybirdbackground.png */,
+				913B40E71908026100BE6647 /* botpipeFlappy.png */,
+				919E9E2918E8FFC50011217E /* Main.storyboard */,
+				913B40F41908026100BE6647 /* ellishead.png */,
+				913B40F61908026100BE6647 /* ellisheaddown.png */,
+				913B410B1908026100BE6647 /* pipe.png */,
+				913B41101908026100BE6647 /* topPipeflappy.png */,
 				913C00FB1910341200366753 /* alarm_clock_buzzer_ringing.mp3 */,
 				919E9E1F18E8FFC50011217E /* snoozlessAlarm-Info.plist */,
 				919E9E2018E8FFC50011217E /* InfoPlist.strings */,
