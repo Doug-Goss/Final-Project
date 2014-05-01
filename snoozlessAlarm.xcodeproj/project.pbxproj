@@ -12,13 +12,13 @@
 		913C00FE191038B800366753 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913C00FD191038B800366753 /* AVFoundation.framework */; };
 		913C014A191161E400366753 /* Game2.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C0149191161E400366753 /* Game2.m */; };
 		913C014D1911627B00366753 /* Cuddler2.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C014C1911627B00366753 /* Cuddler2.m */; };
-		913C014F191169F400366753 /* topPipeflappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C014E191169F400366753 /* topPipeflappy.png */; };
-		913C015119116A3000366753 /* flappground.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C015019116A3000366753 /* flappground.png */; };
-		913C015419116A3E00366753 /* flappybird.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C015219116A3E00366753 /* flappybird.png */; };
-		913C015519116A3E00366753 /* flappybirdbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C015319116A3E00366753 /* flappybirdbackground.png */; };
-		913C015719116A4C00366753 /* ellishead.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C015619116A4C00366753 /* ellishead.png */; };
-		913C015919116A5200366753 /* ellisheaddown.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C015819116A5200366753 /* ellisheaddown.png */; };
-		913C015B19116A5900366753 /* botpipeFlappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C015A19116A5900366753 /* botpipeFlappy.png */; };
+		913C02941912EE2D00366753 /* botpipeFlappy 13-29-55-280 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C028E1912EE2D00366753 /* botpipeFlappy 13-29-55-280 copy.png */; };
+		913C02951912EE2D00366753 /* botpipeFlappy copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C028F1912EE2D00366753 /* botpipeFlappy copy.png */; };
+		913C02961912EE2D00366753 /* ellishead copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C02901912EE2D00366753 /* ellishead copy.png */; };
+		913C02971912EE2D00366753 /* ellisheaddown copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C02911912EE2D00366753 /* ellisheaddown copy.png */; };
+		913C02981912EE2D00366753 /* flappground 13-29-55-264.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C02921912EE2D00366753 /* flappground 13-29-55-264.png */; };
+		913C02991912EE2D00366753 /* flappybirdbackground copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C02931912EE2D00366753 /* flappybirdbackground copy.png */; };
+		913C029B1912EEDD00366753 /* topPipeflappy copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C029A1912EEDD00366753 /* topPipeflappy copy.png */; };
 		919E9E1818E8FFC50011217E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E1718E8FFC50011217E /* Foundation.framework */; };
 		919E9E1A18E8FFC50011217E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E1918E8FFC50011217E /* CoreGraphics.framework */; };
 		919E9E1C18E8FFC50011217E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E9E1B18E8FFC50011217E /* UIKit.framework */; };
@@ -57,13 +57,13 @@
 		913C0149191161E400366753 /* Game2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game2.m; sourceTree = "<group>"; };
 		913C014B1911627B00366753 /* Cuddler2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cuddler2.h; sourceTree = "<group>"; };
 		913C014C1911627B00366753 /* Cuddler2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cuddler2.m; sourceTree = "<group>"; };
-		913C014E191169F400366753 /* topPipeflappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topPipeflappy.png; path = ../../programImages/topPipeflappy.png; sourceTree = "<group>"; };
-		913C015019116A3000366753 /* flappground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappground.png; path = ../../programImages/flappground.png; sourceTree = "<group>"; };
-		913C015219116A3E00366753 /* flappybird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappybird.png; path = ../../programImages/flappybird.png; sourceTree = "<group>"; };
-		913C015319116A3E00366753 /* flappybirdbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flappybirdbackground.png; path = ../../programImages/flappybirdbackground.png; sourceTree = "<group>"; };
-		913C015619116A4C00366753 /* ellishead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ellishead.png; path = ../../programImages/ellishead.png; sourceTree = "<group>"; };
-		913C015819116A5200366753 /* ellisheaddown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ellisheaddown.png; path = ../../programImages/ellisheaddown.png; sourceTree = "<group>"; };
-		913C015A19116A5900366753 /* botpipeFlappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = botpipeFlappy.png; path = ../../programImages/botpipeFlappy.png; sourceTree = "<group>"; };
+		913C028E1912EE2D00366753 /* botpipeFlappy 13-29-55-280 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "botpipeFlappy 13-29-55-280 copy.png"; path = "../botpipeFlappy 13-29-55-280 copy.png"; sourceTree = "<group>"; };
+		913C028F1912EE2D00366753 /* botpipeFlappy copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "botpipeFlappy copy.png"; path = "../botpipeFlappy copy.png"; sourceTree = "<group>"; };
+		913C02901912EE2D00366753 /* ellishead copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ellishead copy.png"; path = "../ellishead copy.png"; sourceTree = "<group>"; };
+		913C02911912EE2D00366753 /* ellisheaddown copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ellisheaddown copy.png"; path = "../ellisheaddown copy.png"; sourceTree = "<group>"; };
+		913C02921912EE2D00366753 /* flappground 13-29-55-264.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flappground 13-29-55-264.png"; path = "../flappground 13-29-55-264.png"; sourceTree = "<group>"; };
+		913C02931912EE2D00366753 /* flappybirdbackground copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flappybirdbackground copy.png"; path = "../flappybirdbackground copy.png"; sourceTree = "<group>"; };
+		913C029A1912EEDD00366753 /* topPipeflappy copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "topPipeflappy copy.png"; path = "../topPipeflappy copy.png"; sourceTree = "<group>"; };
 		919E9E1418E8FFC50011217E /* snoozlessAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snoozlessAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		919E9E1718E8FFC50011217E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		919E9E1918E8FFC50011217E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -157,6 +157,7 @@
 				919E9E2D18E8FFC50011217E /* SnoozlessMasterViewController.m */,
 				919E9E2F18E8FFC50011217E /* SnoozlessDetailViewController.h */,
 				919E9E3018E8FFC50011217E /* SnoozlessDetailViewController.m */,
+				919E9E2918E8FFC50011217E /* Main.storyboard */,
 				919E9E4F18E900FC0011217E /* Alarm.h */,
 				919E9E5018E900FC0011217E /* Alarm.m */,
 				913C0148191161E400366753 /* Game2.h */,
@@ -174,14 +175,13 @@
 		919E9E1E18E8FFC50011217E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				913C015A19116A5900366753 /* botpipeFlappy.png */,
-				913C015819116A5200366753 /* ellisheaddown.png */,
-				913C015619116A4C00366753 /* ellishead.png */,
-				913C015219116A3E00366753 /* flappybird.png */,
-				913C015319116A3E00366753 /* flappybirdbackground.png */,
-				913C015019116A3000366753 /* flappground.png */,
-				913C014E191169F400366753 /* topPipeflappy.png */,
-				919E9E2918E8FFC50011217E /* Main.storyboard */,
+				913C029A1912EEDD00366753 /* topPipeflappy copy.png */,
+				913C028E1912EE2D00366753 /* botpipeFlappy 13-29-55-280 copy.png */,
+				913C028F1912EE2D00366753 /* botpipeFlappy copy.png */,
+				913C02901912EE2D00366753 /* ellishead copy.png */,
+				913C02911912EE2D00366753 /* ellisheaddown copy.png */,
+				913C02921912EE2D00366753 /* flappground 13-29-55-264.png */,
+				913C02931912EE2D00366753 /* flappybirdbackground copy.png */,
 				913C00FB1910341200366753 /* alarm_clock_buzzer_ringing.mp3 */,
 				919E9E1F18E8FFC50011217E /* snoozlessAlarm-Info.plist */,
 				919E9E2018E8FFC50011217E /* InfoPlist.strings */,
@@ -286,17 +286,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				913C015B19116A5900366753 /* botpipeFlappy.png in Resources */,
-				913C014F191169F400366753 /* topPipeflappy.png in Resources */,
+				913C02991912EE2D00366753 /* flappybirdbackground copy.png in Resources */,
+				913C029B1912EEDD00366753 /* topPipeflappy copy.png in Resources */,
+				913C02961912EE2D00366753 /* ellishead copy.png in Resources */,
 				913C00FC1910341200366753 /* alarm_clock_buzzer_ringing.mp3 in Resources */,
-				913C015519116A3E00366753 /* flappybirdbackground.png in Resources */,
-				913C015919116A5200366753 /* ellisheaddown.png in Resources */,
 				919E9E3318E8FFC50011217E /* Images.xcassets in Resources */,
-				913C015419116A3E00366753 /* flappybird.png in Resources */,
-				913C015119116A3000366753 /* flappground.png in Resources */,
+				913C02981912EE2D00366753 /* flappground 13-29-55-264.png in Resources */,
+				913C02941912EE2D00366753 /* botpipeFlappy 13-29-55-280 copy.png in Resources */,
+				913C02951912EE2D00366753 /* botpipeFlappy copy.png in Resources */,
 				919E9E2218E8FFC50011217E /* InfoPlist.strings in Resources */,
 				919E9E2B18E8FFC50011217E /* Main.storyboard in Resources */,
-				913C015719116A4C00366753 /* ellishead.png in Resources */,
+				913C02971912EE2D00366753 /* ellisheaddown copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

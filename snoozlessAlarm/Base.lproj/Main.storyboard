@@ -158,27 +158,27 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flappybird.png" translatesAutoresizingMaskIntoConstraints="NO" id="9uC-IS-FQR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flappybirdbackground copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="9uC-IS-FQR">
                                 <rect key="frame" x="-68" y="0.0" width="388" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flappground.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ue6-Ts-Fga">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flappground 13-29-55-264.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ue6-Ts-Fga">
                                 <rect key="frame" x="0.0" y="450" width="326" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topPipeflappy.png" translatesAutoresizingMaskIntoConstraints="NO" id="She-5H-Gvd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topPipeflappy copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="She-5H-Gvd">
                                 <rect key="frame" x="197" y="-293" width="53" height="410"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="botpipeFlappy.png" translatesAutoresizingMaskIntoConstraints="NO" id="bBu-dQ-5DO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="botpipeFlappy copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="bBu-dQ-5DO">
                                 <rect key="frame" x="211" y="425" width="53" height="410"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellishead.png" translatesAutoresizingMaskIntoConstraints="NO" id="aYU-mK-Zvg" customClass="Cuddler2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellishead copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="aYU-mK-Zvg" customClass="Cuddler2">
                                 <rect key="frame" x="33" y="271" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topPipeflappy.png" translatesAutoresizingMaskIntoConstraints="NO" id="yIx-9O-lZ4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="botpipeFlappy copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="yIx-9O-lZ4">
                                 <rect key="frame" x="-18" y="-5" width="356" height="8"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -266,11 +266,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         </scene>
     </scenes>
     <resources>
-        <image name="botpipeFlappy.png" width="25" height="113"/>
-        <image name="ellishead.png" width="40" height="40"/>
-        <image name="flappground.png" width="144" height="53"/>
-        <image name="flappybird.png" width="143" height="255"/>
-        <image name="topPipeflappy.png" width="25" height="127"/>
+        <image name="botpipeFlappy copy.png" width="25" height="113"/>
+        <image name="ellishead copy.png" width="40" height="40"/>
+        <image name="flappground 13-29-55-264.png" width="144" height="53"/>
+        <image name="flappybirdbackground copy.png" width="143" height="255"/>
+        <image name="topPipeflappy copy.png" width="25" height="127"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
